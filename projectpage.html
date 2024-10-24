@@ -2,123 +2,122 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Photography Project</title>
+    <title>ClosetGenius</title>
     <style>
+        /* Base styling */
         body {
             font-family: Arial, sans-serif;
-            background-color: #FFFBE9;
+            background-color: #f0f4f8; /* Light grey background */
+            color: #333;
             margin: 0;
-            padding: 20px;
+            padding: 0;
         }
+
+        /* Header section styling */
         header {
-    background: linear-gradient(to right, #365275, #ffa911);
-    height: 200px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #FFFBE9;
-    padding: 20px 0;
-    text-align: center;
-}
-        header img {
-            max-width: 100px;
-            height: auto;
-            margin-bottom: 10px;
-        }
-        h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        nav {
-            margin-top: 20px;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #6789b0;
-            font-weight: bold;
-        }
-        .content {
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: #6789b0;
+            background-color: #569bc4; /* Blue color */
+            color: #fff;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-        }
-        h2 {
-            color: #FFFBE9;
-        }
-        p {
-            line-height: 1.6;
-            font-size: 1.1em;
-            color: #FFFBE9;
-        }
-        footer {
             text-align: center;
-            margin-top: 30px;
-            background-color: #BBB9A3;
-            color: #FFFBE9;
         }
-        .weather-description {
-            background-color: ;
-            border-left: 5px solid #57779c;
-            padding: 15px;
-            margin: 20px 0;
+
+        /* Navigation menu */
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #569bc4;
+        }
+
+        /* Main content section */
+        .container {
+            padding: 20px;
+        }
+
+        /* Button styles for links */
+        .btn {
+            background-color: #4a4a4a; /* Dark grey button */
+            color: #fff;
+            padding: 15px 30px;
+            text-align: center;
+            border: none;
             border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            text-decoration: none;
         }
-        .weather-description h3 {
-            margin-top: 0;
-            color: #FFFBE9;
+
+        .btn:hover {
+            background-color: #569bc4;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <img src="https://raw.githubusercontent.com/Biancagambino/MAPNotes24/main/weather.png">
-        <h1>Weather Photography Project</h1>
-    </header>
 
-    <nav>
-        <a href="#overview">Overview</a>
-        <a href="#coldweather">Cold Weather</a>
-        <a href="#warmweather">Warm Weather</a>
-        <a href="#impact">Impact of Weather</a>
-    </nav>
+<header>
+    <h1>Welcome to ClosetGenius</h1>
+    <p>Your AI-powered wardrobe assistant</p>
+</header>
 
-    <div class="content" id="overview">
-        <h2>Overview</h2>
-        <p>Welcome to the Weather Photography Project! This project explores the visual and environmental differences between cold weather and warm weather through photography. The project aims to capture the unique characteristics and impacts of these two types of weather on landscapes, people, and daily life.</p>
-    </div>
+<nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#sustainability">Sustainability</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <div class="content" id="coldweather">
-        <h2>Cold Weather</h2>
-        <div class="weather-description">
-            <h3>Characteristics of Cold Weather</h3>
-            <p>Cold weather is often associated with low temperatures, frost, snow, and shorter daylight hours. The landscape is typically covered in a blanket of snow, giving it a serene and sometimes harsh appearance. Cold weather can impact daily life by necessitating warm clothing, heating, and changes in transportation methods. The beauty of cold weather lies in its crisp, clear air and the unique patterns formed by ice and snow.</p>
-        </div>
-    </div>
+<div class="container">
+    <section id="about">
+        <h2>About ClosetGenius</h2>
+        <p>ClosetGenius is your personalized AI-powered wardrobe assistant designed to maximize your existing clothing and recommend stylish outfits for every occasion. Powered by cutting-edge computer vision and machine learning, ClosetGenius promotes sustainable fashion and reduces textile waste by helping you make the most of your wardrobe.</p>
+    </section>
 
-    <div class="content" id="warmweather">
-        <h2>Warm Weather</h2>
-        <div class="weather-description">
-            <h3>Characteristics of Warm Weather</h3>
-            <p>Warm weather is characterized by higher temperatures, longer daylight hours, and vibrant, lush landscapes. This type of weather encourages outdoor activities, social gatherings, and a more relaxed lifestyle. Warm weather often brings bright sunshine, clear skies, and flourishing vegetation, making it ideal for photography that captures life, energy, and color.</p>
-        </div>
-    </div>
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>AI-driven outfit recommendations based on weather, occasion, and style preferences</li>
+            <li>Effortlessly catalog and manage your wardrobe</li>
+            <li>Track clothing wear frequency and sustainability insights</li>
+            <li>Receive personalized alerts for your most underutilized clothing items</li>
+        </ul>
+        <a class="btn" href="#sustainability">Learn More About Sustainability</a>
+    </section>
 
-    <div class="content" id="impact">
-        <h2>Impact of Weather</h2>
-        <p>The impact of weather on daily life and the environment is profound. Cold weather can lead to challenges such as frostbite, hypothermia, and difficulties in travel. It can also create stunningly beautiful scenes that are perfect for photography. On the other hand, warm weather promotes growth, activity, and social interaction, but can also bring challenges like heatwaves and droughts. Through photography, this project aims to highlight the contrasts and complementarities of these two weather conditions, showing how they shape the world around us in distinct ways.</p>
-    </div>
+    <section id="sustainability">
+        <h2>Sustainability</h2>
+        <p>At ClosetGenius, we believe in promoting sustainable fashion by encouraging users to wear their existing wardrobe and avoid unnecessary purchases. By analyzing wear patterns and making personalized recommendations, we aim to help users reduce their fashion footprint.</p>
+    </section>
 
-    <footer>
-        <p>&copy; 2024 Weather Photography Project</p>
-    </footer>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, feel free to reach out to our team.</p>
+        <a class="btn" href="mailto:support@closetgenius.com">Contact Support</a>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 ClosetGenius | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
+
 

@@ -17,14 +17,28 @@
         header {
             background-color: #569bc4; /* Blue color */
             color: #fff;
-            padding: 50px;
+            padding: 20px; /* Padding for header */
             text-align: center;
+            height: 300px; /* Larger header height */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
         }
+
+        /* Logo styling */
+        .logo {
+            width: 200px; /* Increased logo width */
+            margin-bottom: 20px; /* Space between logo and title */
+        }
+
 
         /* Navigation menu */
         nav {
             background-color: #333;
             padding: 10px;
+            text-align: center;
         }
 
         nav a {
@@ -73,6 +87,7 @@
 <body>
 
 <header>
+    <img src="Users/biancagambino/Documents/Logo.jpg" alt="ClosetGenius Logo" class="logo">
     <h1>Welcome to ClosetGenius</h1>
     <p>Your AI-powered wardrobe assistant</p>
 </header>
@@ -82,14 +97,12 @@
     <a href="#features">Features</a>
     <a href="#sustainability">Sustainability</a>
     <a href="#contact">Contact</a>
-    <a href="#app">Download</a>
 </nav>
 
 <div class="container">
     <section id="about">
         <h2>About ClosetGenius</h2>
         <p>ClosetGenius is your personalized AI-powered wardrobe assistant designed to maximize your existing clothing and recommend stylish outfits for every occasion. Powered by cutting-edge computer vision and machine learning, ClosetGenius promotes sustainable fashion and reduces textile waste by helping you make the most of your wardrobe.</p>
-        <p> Download are app to get started today: <a href = "#app"></p>
     </section>
 
     <section id="features">

@@ -22,6 +22,8 @@
             align-items: flex-start; /* Align title, logo, and nav links at the top */
             height: 300px; /* Increased header height */
             position: relative;
+            flex-direction: column; /* Stack elements vertically */
+            text-align: center; /* Center the text explanation */
         }
 
         /* Header title and logo styling */
@@ -39,13 +41,20 @@
 
         /* Logo styling */
         .logo {
-            width: 100px; /* Larger logo size */
+            width: 150px; /* Larger logo size */
             margin-top: 10px; /* Space between the title and logo */
+        }
+
+        /* Explanation text styling */
+        .explanation {
+            font-size: 20px; /* Font size for explanation */
+            margin: 20px 0; /* Space above and below explanation */
+            max-width: 600px; /* Limit the width of the explanation */
         }
 
         /* Navigation styling */
         nav {
-            margin-left: 40px; /* Space between the title and nav links */
+            margin-top: 20px; /* Space between title and nav links */
             align-self: flex-start; /* Align nav links to the top */
         }
 
@@ -114,6 +123,9 @@
         <h1>ClosetGenius</h1>
         <img src="path/to/your/logo.jpg" alt="ClosetGenius Logo" class="logo">
     </div>
+    <div class="explanation">
+        ClosetGenius is your personalized AI-powered wardrobe assistant that maximizes your clothing and recommends stylish outfits for every occasion.
+    </div>
     <nav>
         <a href="#about">About</a>
         <a href="#features">Features</a>
@@ -160,7 +172,7 @@
         Contact our support team at <a href="mailto:Closetgeniusai@gmail.com">Closetgeniusai@gmail.com</a> |
         Download our mobile app ClosetGenius to get started: <a href="https://www.apple.com/app-store/">Download App</a> |
         Learn more about our team: <a href="#Ourteam">Our Team</a> |
-        Stay Informed! <a href="#enhancements">Click here</a> to learn about enhancements we are currently working on
+        Stay Informed! <a href="#enhancements">Click here </a>to learn about enhancements we are currently working on
     </p>
 </footer>
 

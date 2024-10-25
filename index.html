@@ -25,6 +25,10 @@
             position: relative;
         }
 
+        .header-content {
+            text-align: center;
+            margin-left: 20px;
+        }
 
         /* Logo styling */
         .logo {
@@ -32,11 +36,14 @@
         }
 
         /* Header title styling */
-        .header-content {
-            flex: 1;
-            text-align: center;
+        .header-content h1 {
+            margin: 0; /* Remove default margin */
         }
 
+        .header-content p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
 
         /* Navigation menu */
         nav {
@@ -70,12 +77,18 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            margin: 10px;
+            margin: 10px 0;
             text-decoration: none;
+            display: inline-block;
         }
 
         .btn:hover {
             background-color: #569bc4;
+        }
+
+        /* Section spacing */
+        section {
+            margin-bottom: 40px; /* Add consistent space between sections */
         }
 
         /* Footer */
@@ -91,9 +104,11 @@
 <body>
 
 <header>
-    <img src="Users/biancagambino/Documents/Logo.jpg" alt="ClosetGenius Logo" class="logo">
-    <h1>Welcome to ClosetGenius</h1>
-    <p>Your AI-powered wardrobe assistant</p>
+    <img src="path/to/your/logo.jpg" alt="ClosetGenius Logo" class="logo">
+    <div class="header-content">
+        <h1>Welcome to ClosetGenius</h1>
+        <p>Your AI-powered wardrobe assistant</p>
+    </div>
 </header>
 
 <nav>
@@ -105,44 +120,14 @@
 
 <div class="container">
     <section id="about">
-        <h2>About ClosetGeniusapp</h2>
+        <h2>About ClosetGenius</h2>
         <p>ClosetGenius is your personalized AI-powered wardrobe assistant designed to maximize your existing clothing and recommend stylish outfits for every occasion. Powered by cutting-edge computer vision and machine learning, ClosetGenius promotes sustainable fashion and reduces textile waste by helping you make the most of your wardrobe.</p>
-        <br></br>
         <a class="btn" href="https://www.apple.com/app-store/">Download App</a>
     </section>
-</div>
-    <br></br>
 
     <section id="features">
         <h2>Features</h2>
         <ul>
             <li>AI-driven outfit recommendations based on weather, occasion, and style preferences</li>
-            <li>Effortlessly catalog and manage your wardrobe</li>
-            <li>Track clothing wear frequency and sustainability insights</li>
-            <li>Receive personalized alerts for your most underutilized clothing items</li>
-            <li> Submit looks to our shop and sell/trade with a community of users</li>
-        </ul>
-        <br></br>
-        <a class="btn" href="#sustainability">Learn More About Sustainability</a>
-    </section>
-        <br></br>
+            <li>Effortlessly catalog
 
-    <section id="sustainability">
-        <h2>Sustainability</h2>
-        <p>At ClosetGenius, we believe in promoting sustainable fashion by encouraging users to wear their existing wardrobe and avoid unnecessary purchases. By analyzing wear patterns and making personalized recommendations, we aim to help users reduce their fashion footprint.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or feedback, feel free to reach out to our team.</p>
-        <br></br>
-        <a class="btn" href="mailto:Closetgeniusai@gmail.com">Contact Support</a>
-    </section>
-</div>
-
-<footer>
-    <p>&copy; 2024 ClosetGenius | All Rights Reserved</p>
-</footer>
-
-</body>
-</html>

@@ -17,20 +17,23 @@
         header {
             background-color: #569bc4; /* Blue color */
             color: #fff;
-            padding: 20px; /* Padding for header */
-            text-align: center;
-            height: 300px; /* Larger header height */
+            padding: 20px 40px; /* Padding for header */
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            align-items: center; /* Vertically center content */
+            justify-content: space-between; /* Space between logo and title */
+            height: 250px; /* Adjusted header height */
             position: relative;
         }
 
         /* Logo styling */
         .logo {
-            width: 200px; /* Increased logo width */
-            margin-bottom: 20px; /* Space between logo and title */
+            width: 200px; /* Larger logo size */
+        }
+
+        /* Header title styling */
+        .header-content {
+            flex: 1;
+            text-align: center;
         }
 
 
@@ -101,8 +104,9 @@
 
 <div class="container">
     <section id="about">
-        <h2>About ClosetGenius</h2>
+        <h2>About ClosetGeniusapp</h2>
         <p>ClosetGenius is your personalized AI-powered wardrobe assistant designed to maximize your existing clothing and recommend stylish outfits for every occasion. Powered by cutting-edge computer vision and machine learning, ClosetGenius promotes sustainable fashion and reduces textile waste by helping you make the most of your wardrobe.</p>
+        <a class="btn" href="https://www.apple.com/app-store/">Download through the app store here</a>
     </section>
 
     <section id="features">
@@ -112,6 +116,7 @@
             <li>Effortlessly catalog and manage your wardrobe</li>
             <li>Track clothing wear frequency and sustainability insights</li>
             <li>Receive personalized alerts for your most underutilized clothing items</li>
+            <li> Submit looks to our shop and sell/trade with a community of users</li>
         </ul>
         <a class="btn" href="#sustainability">Learn More About Sustainability</a>
     </section>
@@ -124,7 +129,7 @@
     <section id="contact">
         <h2>Contact Us</h2>
         <p>If you have any questions or feedback, feel free to reach out to our team.</p>
-        <a class="btn" href="mailto:support@closetgenius.com">Contact Support</a>
+        <a class="btn" href="mailto:Closetgeniusai@gmail.com">Contact Support</a>
     </section>
 </div>
 
@@ -134,5 +139,4 @@
 
 </body>
 </html>
-
 

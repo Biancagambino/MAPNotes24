@@ -29,86 +29,100 @@
             width: 200px; /* Logo size */
         }
 
-        /* Header content styling */
-        .header-content {
-            flex: 1; /* Take up remaining space */
-            text-align: center; /* Center the text */
-        }
+        /* Header section styling */
+header {
+    background-color: #569bc4; /* Blue color */
+    color: #fff;
+    padding: 20px 40px; /* Padding for header */
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Space between logo and title */
+    height: 100px; /* Adjusted header height */
+}
 
-        .header-content h1 {
-            margin: 0; /* Remove default margin */
-        }
+/* Header title styling */
+.header-title {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
 
-        .header-content p {
-            margin-top: 10px;
-            font-size: 18px;
-        }
+/* Logo styling */
+.logo {
+    width: 50px; /* Adjust logo size */
+    margin-right: 15px; /* Space between logo and title */
+}
 
-        /* Navigation menu */
-        nav {
-            background-color: #333;
-            padding: 10px;
-            text-align: center;
-        }
+/* Title styling */
+.header-title h1 {
+    margin: 0;
+    font-size: 24px;
+}
 
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            display: inline-block;
-        }
+/* Navigation menu inside the header */
+nav {
+    margin-left: 30px; /* Space between title and nav links */
+}
 
-        nav a:hover {
-            background-color: #569bc4;
-        }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
 
-        /* Main content section */
-        .container {
-            padding: 20px;
-        }
+nav a:hover {
+    background-color: #4a4a4a;
+    border-radius: 4px;
+}
 
-        /* Button styles for links */
-        .btn {
-            background-color: #4a4a4a; /* Dark grey button */
-            color: #fff;
-            padding: 15px 30px;
-            text-align: center;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin: 10px 0;
-            text-decoration: none;
-            display: inline-block;
-        }
+/* Main content section */
+.container {
+    padding: 20px;
+}
 
-        .btn:hover {
-            background-color: #569bc4;
-        }
+/* Button styles for links */
+.btn {
+    background-color: #4a4a4a; /* Dark grey button */
+    color: #fff;
+    padding: 15px 30px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    text-decoration: none;
+}
 
-        /* Section spacing */
-        section {
-            margin-bottom: 40px; /* Add consistent space between sections */
-        }
+.btn:hover {
+    background-color: #569bc4;
+}
 
-        /* Footer */
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            margin-top: 20px;
-        }
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
     </style>
 </head>
 <body>
 
 <header>
-    <img src="path/to/your/logo.jpg" alt="ClosetGenius Logo" class="logo">
-    <div class="header-content">
-        <h1>Welcome to ClosetGenius</h1>
-        <p>Your AI-powered wardrobe assistant</p>
+    <div class="header-title">
+        <img src="path/to/your/logo.jpg" alt="ClosetGenius Logo" class="logo">
+        <h1>ClosetGenius</h1>
     </div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#sustainability">Sustainability</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
+
 
 
 <nav>
@@ -150,6 +164,7 @@
 </div>
 
 <footer>
+    <p> About: 
     <p>&copy; 2024 ClosetGenius | All Rights Reserved</p>
 </footer>
 

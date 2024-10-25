@@ -19,18 +19,18 @@
             color: #fff;
             padding: 20px 40px; /* Padding for header */
             display: flex;
-            align-items: center; /* Center align items vertically */
-            justify-content: space-between; /* Space between title/logo and nav */
+            align-items: center; /* Center logo vertically */
+            justify-content: flex-start; /* Align items to the left */
             height: 300px; /* Increased header height */
             position: relative;
-            flex-direction: column; /* Stack elements vertically */
             text-align: center; /* Center the explanation text */
         }
 
         /* Title and logo styling */
         .header-title {
             display: flex;
-            align-items: center; /* Align logo and title vertically */
+            flex-direction: column; /* Stack the title and nav links vertically */
+            margin-right: 20px; /* Space between title/nav and logo */
         }
 
         /* Title styling */
@@ -42,7 +42,7 @@
         /* Logo styling */
         .logo {
             width: 150px; /* Larger logo size */
-            margin-left: 10px; /* Space between title and logo */
+            margin-left: 0; /* Align logo to the left */
         }
 
         /* Explanation text styling */
@@ -122,14 +122,14 @@
 <header>
     <div class="header-title">
         <h1>ClosetGenius</h1>
-        <img src="path/to/your/logo.jpg" alt="ClosetGenius Logo" class="logo">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#sustainability">Sustainability</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </div>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#features">Features</a>
-        <a href="#sustainability">Sustainability</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <img src="path/to/your/logo.jpg" alt="ClosetGenius Logo" class="logo"> <!-- Logo is now separate -->
     <div class="explanation">
         ClosetGenius is your personalized AI-powered wardrobe assistant that maximizes your clothing and recommends stylish outfits for every occasion.
     </div>

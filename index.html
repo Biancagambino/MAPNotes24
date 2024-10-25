@@ -20,30 +20,32 @@
             padding: 20px 40px; /* Padding for header */
             display: flex;
             align-items: center; /* Vertically center content */
-            justify-content: space-between; /* Space between logo and title */
+            justify-content: center; /* Center content horizontally */
+            flex-direction: column; /* Stack items vertically */
             height: 250px; /* Adjusted header height */
             position: relative;
-        }
-
-        .header-content {
-            text-align: center;
-            margin-left: 20px;
-        }
+            }
 
         /* Logo styling */
         .logo {
             width: 200px; /* Larger logo size */
-        }
+            margin-bottom: 20px; /* Add margin below logo */
+            }
 
-        /* Header title styling */
+        /* Header content styling */
+        .header-content {
+            text-align: center; /* Center the text */
+            }
+
         .header-content h1 {
             margin: 0; /* Remove default margin */
-        }
+            }
 
         .header-content p {
             margin-top: 10px;
             font-size: 18px;
-        }
+            }
+
 
         /* Navigation menu */
         nav {
@@ -104,7 +106,7 @@
 <body>
 
 <header>
-    <img src="Users/biancagambino/Documents/Logo.jpg" alt="ClosetGenius Logo" class="logo">
+    <img src="path/to/your/logo.jpg" alt="ClosetGenius Logo" class="logo">
     <div class="header-content">
         <h1>Welcome to ClosetGenius</h1>
         <p>Your AI-powered wardrobe assistant</p>

@@ -14,53 +14,39 @@
         }
 
         /* Header section styling */
-        header {
-            background-color: #569bc4; /* Blue color */
-            color: #fff;
-            padding: 20px 40px; /* Padding for header */
-            display: flex;
-            align-items: center; /* Vertically center content */
-            justify-content: space-between; /* Space between logo and text */
-            height: 250px; /* Adjusted header height */
-    }
-
-        /* Logo styling */
-        .logo {
-            width: 200px; /* Logo size */
-        }
-
-        /* Header section styling */
 header {
     background-color: #569bc4; /* Blue color */
     color: #fff;
     padding: 20px 40px; /* Padding for header */
     display: flex;
-    align-items: center; /* Vertically center content */
-    justify-content: space-between; /* Space between logo and title */
-    height: 100px; /* Adjusted header height */
+    align-items: flex-start; /* Align title, logo, and nav links at the top */
+    height: 300px; /* Increased header height */
+    position: relative;
 }
 
-/* Header title styling */
+/* Header title and logo styling */
 .header-title {
     display: flex;
-    align-items: center; /* Center vertically */
-}
-
-/* Logo styling */
-.logo {
-    width: 50px; /* Adjust logo size */
-    margin-right: 15px; /* Space between logo and title */
+    flex-direction: column; /* Stack the logo below the title */
+    align-items: flex-start; /* Align the title and logo to the left */
 }
 
 /* Title styling */
 .header-title h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 48px; /* Bigger title size */
 }
 
-/* Navigation menu inside the header */
+/* Logo styling */
+.logo {
+    width: 100px; /* Larger logo size */
+    margin-top: 10px; /* Space between the title and logo */
+}
+
+/* Navigation styling */
 nav {
-    margin-left: 30px; /* Space between title and nav links */
+    margin-left: 40px; /* Space between the title and nav links */
+    align-self: flex-start; /* Align nav links to the top */
 }
 
 nav a {
@@ -68,6 +54,7 @@ nav a {
     text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
+    font-size: 18px; /* Slightly larger text for navigation links */
 }
 
 nav a:hover {
@@ -75,12 +62,12 @@ nav a:hover {
     border-radius: 4px;
 }
 
-/* Main content section */
+/* Container */
 .container {
     padding: 20px;
 }
 
-/* Button styles for links */
+/* Button styles */
 .btn {
     background-color: #4a4a4a; /* Dark grey button */
     color: #fff;
@@ -106,14 +93,15 @@ footer {
     margin-top: 20px;
 }
 
+
     </style>
 </head>
 <body>
 
 <header>
     <div class="header-title">
-        <img src="path/to/your/logo.jpg" alt="ClosetGenius Logo" class="logo">
         <h1>ClosetGenius</h1>
+        <img src="path/to/your/logo.jpg" alt="ClosetGenius Logo" class="logo">
     </div>
     <nav>
         <a href="#about">About</a>
@@ -123,18 +111,9 @@ footer {
     </nav>
 </header>
 
-
-
-<nav>
-    <a href="#about">About</a>
-    <a href="#features">Features</a>
-    <a href="#sustainability">Sustainability</a>
-    <a href="#contact">Contact</a>
-</nav>
-
 <div class="container">
     <section id="about">
-        <h2>About ClosetGenius</h2>
+        <h2>About ClosetGeniusapp</h2>
         <p>ClosetGenius is your personalized AI-powered wardrobe assistant designed to maximize your existing clothing and recommend stylish outfits for every occasion. Powered by cutting-edge computer vision and machine learning, ClosetGenius promotes sustainable fashion and reduces textile waste by helping you make the most of your wardrobe.</p>
         <a class="btn" href="https://www.apple.com/app-store/">Download App</a>
     </section>
@@ -164,6 +143,8 @@ footer {
 </div>
 
 <footer>
+    <p>&copy; 2024 ClosetGenius | All Rights Reserved</p>
+</footer>
     <p> About: 
     <p>&copy; 2024 ClosetGenius | All Rights Reserved</p>
 </footer>

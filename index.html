@@ -14,86 +14,97 @@
         }
 
         /* Header section styling */
-header {
-    background-color: #569bc4; /* Blue color */
-    color: #fff;
-    padding: 20px 40px; /* Padding for header */
-    display: flex;
-    align-items: flex-start; /* Align title, logo, and nav links at the top */
-    height: 300px; /* Increased header height */
-    position: relative;
-}
+        header {
+            background-color: #569bc4; /* Blue color */
+            color: #fff;
+            padding: 20px 40px; /* Padding for header */
+            display: flex;
+            align-items: flex-start; /* Align title, logo, and nav links at the top */
+            height: 300px; /* Increased header height */
+            position: relative;
+        }
 
-/* Header title and logo styling */
-.header-title {
-    display: flex;
-    flex-direction: column; /* Stack the logo below the title */
-    align-items: flex-start; /* Align the title and logo to the left */
-}
+        /* Header title and logo styling */
+        .header-title {
+            display: flex;
+            flex-direction: column; /* Stack the logo below the title */
+            align-items: flex-start; /* Align the title and logo to the left */
+        }
 
-/* Title styling */
-.header-title h1 {
-    margin: 0;
-    font-size: 48px; /* Bigger title size */
-}
+        /* Title styling */
+        .header-title h1 {
+            margin: 0;
+            font-size: 48px; /* Bigger title size */
+        }
 
-/* Logo styling */
-.logo {
-    width: 100px; /* Larger logo size */
-    margin-top: 10px; /* Space between the title and logo */
-}
+        /* Logo styling */
+        .logo {
+            width: 100px; /* Larger logo size */
+            margin-top: 10px; /* Space between the title and logo */
+        }
 
-/* Navigation styling */
-nav {
-    margin-left: 40px; /* Space between the title and nav links */
-    align-self: flex-start; /* Align nav links to the top */
-}
+        /* Navigation styling */
+        nav {
+            margin-left: 40px; /* Space between the title and nav links */
+            align-self: flex-start; /* Align nav links to the top */
+        }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: inline-block;
-    font-size: 18px; /* Slightly larger text for navigation links */
-}
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+            font-size: 18px; /* Slightly larger text for navigation links */
+        }
 
-nav a:hover {
-    background-color: #4a4a4a;
-    border-radius: 4px;
-}
+        nav a:hover {
+            background-color: #4a4a4a;
+            border-radius: 4px;
+        }
 
-/* Container */
-.container {
-    padding: 20px;
-}
+        /* Container */
+        .container {
+            padding: 20px;
+        }
 
-/* Button styles */
-.btn {
-    background-color: #4a4a4a; /* Dark grey button */
-    color: #fff;
-    padding: 15px 30px;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 10px;
-    text-decoration: none;
-}
+        /* Button styles */
+        .btn {
+            background-color: #4a4a4a; /* Dark grey button */
+            color: #fff;
+            padding: 15px 30px;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            text-decoration: none;
+        }
 
-.btn:hover {
-    background-color: #569bc4;
-}
+        .btn:hover {
+            background-color: #569bc4;
+        }
 
-/* Footer */
-footer a {
-    color: #569bc4; /* Customize link color */
-    text-decoration: underline; /* Underline the links */
-}
+        /* Footer */
+        footer {
+            background-color: #333; /* Grey color for footer */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
 
-footer a:hover {
-    color: #4a4a4a; /* Change color on hover */
-}
+        footer .copyright {
+            background-color: #4a4a4a; /* Darker grey for copyright section */
+            padding: 10px 0;
+        }
 
+        footer a {
+            color: #569bc4; /* Customize link color */
+            text-decoration: underline; /* Underline the links */
+        }
+
+        footer a:hover {
+            color: #4a4a4a; /* Change color on hover */
+        }
     </style>
 </head>
 <body>
@@ -137,12 +148,14 @@ footer a:hover {
 
     <section id="Ourteam">
         <h2>Founder: Bianca Gambino</h2>
-        <p> The website and app was created by Bianca Gambino</p>
+        <p>The website and app was created by Bianca Gambino</p>
+    </section>
 </div>
 
-<footer class="hover">
-    <p>&copy; 2024 ClosetGenius | All Rights Reserved</p>
 <footer>
+    <div class="copyright">
+        <p>&copy; 2024 ClosetGenius | All Rights Reserved</p>
+    </div>
     <p>
         Contact our support team at <a href="mailto:Closetgeniusai@gmail.com">Closetgeniusai@gmail.com</a> |
         Download our mobile app ClosetGenius to get started: <a href="https://www.apple.com/app-store/">Download App</a> |
@@ -151,8 +164,5 @@ footer a:hover {
     </p>
 </footer>
 
-
 </body>
 </html>
-
-

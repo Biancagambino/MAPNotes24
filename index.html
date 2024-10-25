@@ -19,18 +19,18 @@
             color: #fff;
             padding: 20px 40px; /* Padding for header */
             display: flex;
-            align-items: flex-start; /* Align title, logo, and nav links at the top */
+            align-items: center; /* Center align items vertically */
+            justify-content: space-between; /* Space between title/logo and nav */
             height: 300px; /* Increased header height */
             position: relative;
             flex-direction: column; /* Stack elements vertically */
-            text-align: center; /* Center the text explanation */
+            text-align: center; /* Center the explanation text */
         }
 
-        /* Header title and logo styling */
+        /* Title and logo styling */
         .header-title {
             display: flex;
-            flex-direction: column; /* Stack the logo below the title */
-            align-items: flex-start; /* Align the title and logo to the left */
+            align-items: center; /* Align logo and title vertically */
         }
 
         /* Title styling */
@@ -42,7 +42,7 @@
         /* Logo styling */
         .logo {
             width: 150px; /* Larger logo size */
-            margin-top: 10px; /* Space between the title and logo */
+            margin-left: 10px; /* Space between title and logo */
         }
 
         /* Explanation text styling */
@@ -50,25 +50,26 @@
             font-size: 20px; /* Font size for explanation */
             margin: 20px 0; /* Space above and below explanation */
             max-width: 600px; /* Limit the width of the explanation */
+            margin-left: auto;
+            margin-right: auto; /* Center explanation */
         }
 
         /* Navigation styling */
         nav {
-            margin-top: 20px; /* Space between title and nav links */
-            align-self: flex-start; /* Align nav links to the top */
+            display: flex; /* Flexbox for navigation */
+            gap: 20px; /* Space between nav links */
         }
 
         nav a {
             color: #fff;
             text-decoration: none;
-            padding: 10px 20px;
-            display: inline-block;
             font-size: 18px; /* Slightly larger text for navigation links */
         }
 
         nav a:hover {
             background-color: #4a4a4a;
             border-radius: 4px;
+            padding: 10px; /* Padding for hover effect */
         }
 
         /* Container */
@@ -123,20 +124,20 @@
         <h1>ClosetGenius</h1>
         <img src="path/to/your/logo.jpg" alt="ClosetGenius Logo" class="logo">
     </div>
-    <div class="explanation">
-        ClosetGenius is your personalized AI-powered wardrobe assistant that maximizes your clothing and recommends stylish outfits for every occasion.
-    </div>
     <nav>
         <a href="#about">About</a>
         <a href="#features">Features</a>
         <a href="#sustainability">Sustainability</a>
         <a href="#contact">Contact</a>
     </nav>
+    <div class="explanation">
+        ClosetGenius is your personalized AI-powered wardrobe assistant that maximizes your clothing and recommends stylish outfits for every occasion.
+    </div>
 </header>
 
 <div class="container">
     <section id="about">
-        <h2>About ClosetGeniusapp</h2>
+        <h2>About ClosetGenius</h2>
         <p>ClosetGenius is your personalized AI-powered wardrobe assistant designed to maximize your existing clothing and recommend stylish outfits for every occasion. Powered by cutting-edge computer vision and machine learning, ClosetGenius promotes sustainable fashion and reduces textile waste by helping you make the most of your wardrobe.</p>
         <a class="btn" href="https://www.apple.com/app-store/">Download App</a>
     </section>
@@ -178,3 +179,4 @@
 
 </body>
 </html>
+

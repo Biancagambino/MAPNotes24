@@ -20,16 +20,15 @@
             padding: 20px 40px; /* Padding for header */
             display: flex;
             align-items: center; /* Center logo vertically */
-            justify-content: flex-start; /* Align items to the left */
+            justify-content: space-between; /* Space between items */
             height: 300px; /* Increased header height */
             position: relative;
-            text-align: center; /* Center the explanation text */
         }
 
-        /* Title and logo styling */
+        /* Title and navigation styling */
         .header-title {
             display: flex;
-            flex-direction: column; /* Stack the title and nav links vertically */
+            align-items: center; /* Align title and nav links vertically */
             margin-right: 20px; /* Space between title/nav and logo */
         }
 
@@ -43,6 +42,9 @@
         .logo {
             width: 150px; /* Larger logo size */
             margin-left: 0; /* Align logo to the left */
+            position: relative; /* Keep logo in its place */
+            top: 50%; /* Center logo vertically */
+            transform: translateY(-50%); /* Adjust to center */
         }
 
         /* Explanation text styling */
@@ -50,8 +52,11 @@
             font-size: 20px; /* Font size for explanation */
             margin: 20px 0; /* Space above and below explanation */
             max-width: 600px; /* Limit the width of the explanation */
-            margin-left: auto;
-            margin-right: auto; /* Center explanation */
+            text-align: center; /* Center the explanation */
+            position: absolute; /* Position explanation absolutely */
+            left: 50%; /* Position from the left */
+            transform: translateX(-50%); /* Center explanation */
+            top: 70%; /* Adjust vertical position */
         }
 
         /* Navigation styling */
@@ -176,6 +181,10 @@
         Stay Informed! <a href="#enhancements">Click here </a>to learn about enhancements we are currently working on
     </p>
 </footer>
+
+</body>
+</html>
+
 
 </body>
 </html>

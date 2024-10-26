@@ -19,17 +19,25 @@
             color: #fff;
             padding: 20px 40px; /* Padding for header */
             display: flex;
-            align-items: center; /* Center logo vertically */
-            justify-content: space-between; /* Space between items */
+            align-items: center;
             height: 300px; /* Increased header height */
             position: relative;
+        }
+
+        /* Title, navigation, and logo container */
+        .header-content {
+            display: flex;
+            align-items: flex-start; /* Align title and nav links at the top left */
+            position: absolute;
+            top: 20px; /* Move title and nav to the top */
+            left: 40px; /* Keep consistent padding */
         }
 
         /* Title and navigation styling */
         .header-title {
             display: flex;
-            align-items: center; /* Align title and nav links vertically */
-            margin-right: 20px; /* Space between title/nav and logo */
+            align-items: center;
+            margin-right: 20px; /* Space between title and nav */
         }
 
         /* Title styling */
@@ -41,10 +49,11 @@
         /* Logo styling */
         .logo {
             width: 150px; /* Larger logo size */
-            margin-left: 0; /* Align logo to the left */
-            position: relative; /* Keep logo in its place */
-            top: 50%; /* Center logo vertically */
-            transform: translateY(-50%); /* Adjust to center */
+            margin-right: 20px; /* Space between logo and other content */
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%); /* Vertically center the logo */
         }
 
         /* Explanation text styling */
@@ -53,7 +62,7 @@
             margin: 20px 0; /* Space above and below explanation */
             max-width: 600px; /* Limit the width of the explanation */
             text-align: center; /* Center the explanation */
-            position: absolute; /* Position explanation absolutely */
+            position: absolute;
             left: 50%; /* Position from the left */
             transform: translateX(-50%); /* Center explanation */
             top: 70%; /* Adjust vertical position */
@@ -125,8 +134,11 @@
 <body>
 
 <header>
-    <div class="header-title">
-        <h1>ClosetGenius</h1>
+    <img src="path/to/your/logo.jpg" alt="ClosetGenius Logo" class="logo"> <!-- Logo on the left side -->
+    <div class="header-content">
+        <div class="header-title">
+            <h1>ClosetGenius</h1>
+        </div>
         <nav>
             <a href="#about">About</a>
             <a href="#features">Features</a>
@@ -134,7 +146,6 @@
             <a href="#contact">Contact</a>
         </nav>
     </div>
-    <img src="path/to/your/logo.jpg" alt="ClosetGenius Logo" class="logo"> <!-- Logo is now separate -->
     <div class="explanation">
         ClosetGenius is your personalized AI-powered wardrobe assistant that maximizes your clothing and recommends stylish outfits for every occasion.
     </div>
@@ -165,8 +176,8 @@
     </section>
 
     <section id="Ourteam">
-        <h2>Who are we?</h2>
-        <p>The website and app was created by Bianca Gambino. We created this to help reduce textile waste and assist users with an easy and efficient way to choose outfits.</p>
+        <h2>Founder and Creator</h2>
+        <p>The website and app was created by Bianca Gambino</p>
     </section>
 </div>
 
@@ -184,8 +195,3 @@
 
 </body>
 </html>
-
-
-</body>
-</html>
-

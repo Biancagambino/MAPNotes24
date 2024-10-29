@@ -1,7 +1,8 @@
 # MAPNotes24
 [My Website](https://biancagambino.github.io/MAPNotes24/) <br>
 Color Scheme From ClosetGenius Logo <br>
-RGB: (209, 211, 212), HEX: #D1D3D4 (greyish white - background color) <br>
+RGB: (224, 224, 224), HEX: #e0e0e0 (greyish white - background color of logo used) <br>
+RGB: (209, 211, 212), HEX: #D1D3D4 (greyish white - supposed background color) <br>
 RGB: (160, 194, 210), HEX: #a0c2d2 (light blue) <br>
 RGB: (36, 52, 71), HEX: #243447 (navy blue - darkest) <br>
 RGB: (211, 226, 228), HEX: #d3e2e4 (ice blue - lightest) <br>

@@ -15,65 +15,35 @@
 
         /* Header section styling */
         header {
-            background-color: #569bc4; /* Blue color */
+            background: url('Logo.jpg') no-repeat center center; /* Use the image as the header background */
+            background-size: cover; /* Cover the header with the image */
             color: #fff;
-            padding: 20px 40px; /* Padding for header */
-            display: flex;
-            align-items: center;
-            height: 300px; /* Increased header height */
+            padding: 20px 0; /* Padding for header */
+            text-align: center; /* Center the header title */
             position: relative;
-        }
-
-        /* Title, navigation, and logo container */
-        .header-content {
-            display: flex;
-            align-items: flex-start; /* Align title and nav links at the top left */
-            position: absolute;
-            top: 20px; /* Move title and nav to the top */
-            left: 40px; /* Keep consistent padding */
-        }
-
-        /* Title and navigation styling */
-        .header-title {
-            display: flex;
-            align-items: center;
-            margin-right: 20px; /* Space between title and nav */
         }
 
         /* Title styling */
         .header-title h1 {
             margin: 0;
             font-size: 48px; /* Bigger title size */
-        }
-
-        /* Logo styling */
-        .logo {
-            width: 150px; /* Larger logo size */
-            margin-right: 20px; /* Space between logo and other content */
-            position: absolute;
-            left: 20px;
-            top: 50%;
-            transform: translateY(-50%); /* Vertically center the logo */
-        }
-
-        /* Explanation text styling */
-        .explanation {
-            font-size: 20px; /* Font size for explanation */
-            margin: 20px 0; /* Space above and below explanation */
-            max-width: 600px; /* Limit the width of the explanation */
-            text-align: center; /* Center the explanation */
-            position: absolute;
-            left: 50%; /* Position from the left */
-            transform: translateX(-50%); /* Center explanation */
-            top: 70%; /* Adjust vertical position */
+            background-color: rgba(255, 255, 255, 0.7); /* White background with transparency */
+            display: inline-block;
+            padding: 10px 20px;
+            color: #333; /* Darker text color */
         }
 
         /* Navigation styling */
         nav {
             display: flex; /* Flexbox for navigation */
+            justify-content: center; /* Center the nav links */
             gap: 20px; /* Space between nav links */
+            background-color: #569bc4; /* Match the blue color theme */
+            padding: 15px; /* Padding for spacing */
+            margin: 0; /* Remove default margin */
         }
 
+        /* Nav links styling */
         nav a {
             color: #fff;
             text-decoration: none;
@@ -134,22 +104,18 @@
 <body>
 
 <header>
-    <img src="path/to/your/logo.jpg" alt="ClosetGenius Logo" class="logo"> <!-- Logo on the left side -->
-    <div class="header-content">
-        <div class="header-title">
-            <h1>ClosetGenius</h1>
-        </div>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#features">Features</a>
-            <a href="#sustainability">Sustainability</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </div>
-    <div class="explanation">
-        ClosetGenius is your personalized AI-powered wardrobe assistant that maximizes your clothing and recommends stylish outfits for every occasion.
+    <div class="header-title">
+        <h1>ClosetGenius</h1>
     </div>
 </header>
+
+<!-- Navigation centered under the header -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#sustainability">Sustainability</a>
+    <a href="#contact">Contact</a>
+</nav>
 
 <div class="container">
     <section id="about">
@@ -167,12 +133,11 @@
             <li>Receive personalized alerts for your most underutilized clothing items</li>
             <li>Submit looks to our shop and sell/trade with a community of users</li>
         </ul>
-        <a class="btn" href="#sustainability">Learn More About Sustainability</a>
     </section>
 
     <section id="sustainability">
         <h2>Sustainability</h2>
-        <p>At ClosetGenius, we believe in promoting sustainable fashion by encouraging users to wear their existing wardrobe and avoid unnecessary purchases. By analyzing wear patterns and making personalized recommendations, we aim to help users reduce their fashion footprint.</p>
+        <p>ClosetGenius promotes sustainability by helping users make the most of their existing wardrobe, encouraging creative outfit combinations instead of buying new clothes. By using AI to track and categorize clothing items, the app reduces the need for excessive consumption, which in turn decreases waste. This approach aligns with environmentally conscious behavior, as it aims to extend the lifecycle of garments, minimizing the fashion industry's environmental footprint. Through better wardrobe management, users are empowered to make sustainable fashion choices that contribute to a lower carbon footprint and reduced textile waste.</p>
     </section>
 
     <section id="Ourteam">

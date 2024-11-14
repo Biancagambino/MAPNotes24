@@ -1,5 +1,4 @@
 # MAPNotes24
-https://tinyurl.com/ClosetGeniusApp
 https://tinyurl.com/ClosetGeniusai
 <br> [My Website](https://biancagambino.github.io/MAPNotes24/) <br>
 Color Scheme From ClosetGenius Logo <br>

@@ -1,4 +1,5 @@
 # MAPNotes24
+https://tinyurl.com/ClosetGeniusApp
 [My Website](https://biancagambino.github.io/MAPNotes24/) <br>
 Color Scheme From ClosetGenius Logo <br>
 RGB: (224, 224, 224), HEX: #e0e0e0 (greyish white - background color of logo used) <br>

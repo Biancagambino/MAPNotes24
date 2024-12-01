@@ -1,5 +1,6 @@
 # MAPNotes24
-https://colab.research.google.com/drive/1GSHqKluNbzOgPkruQXC08VxBSidCp3Lj?usp=sharing <br>
+[slideshow pitch] (https://docs.google.com/presentation/d/1lnTu8TFqcND1K0rUHt4npA06OEFZi9oo8bpbvfD5as0/edit?usp=sharing) <br>
+[alexnet model googlecollab] (https://colab.research.google.com/drive/1GSHqKluNbzOgPkruQXC08VxBSidCp3Lj?usp=sharing) <br>
 [ClosetGeniusai](https://tinyurl.com/ClosetGeniusai) <br>
 
 Color Scheme From ClosetGenius Logo <br>

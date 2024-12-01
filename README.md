@@ -1,7 +1,7 @@
 # MAPNotes24
 https://colab.research.google.com/drive/1GSHqKluNbzOgPkruQXC08VxBSidCp3Lj?usp=sharing <br>
 [ClosetGeniusai](https://tinyurl.com/ClosetGeniusai) <br>
-<br> [My Website](https://biancagambino.github.io/MAPNotes24/) <br>
+
 Color Scheme From ClosetGenius Logo <br>
 RGB: (224, 224, 224), HEX: #e0e0e0 (greyish white - background color of logo used) <br>
 RGB: (209, 211, 212), HEX: #D1D3D4 (greyish white - supposed background color) <br>

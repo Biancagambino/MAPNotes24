@@ -18,7 +18,7 @@
 </p>
 <p>
   Video: 
-  <a href="https://youtu.be/aFZ5A1wO1yo" target="_blank">
+  <a href="[https://youtu.be/aFZ5A1wO1yo](https://youtu.be/1dUcpAU7KtI)" target="_blank">
     Watch Video
   </a>
 </p>
